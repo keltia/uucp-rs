@@ -1,0 +1,82 @@
+From information@ecoledirecte.fr  Wed Jan 18 19:43:50 2023
+Received: from mail08.ecoledirecte.fr (mail08.ecoledirecte.fr [51.77.191.35])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client did not present a certificate)
+	by frmug.org (Postfix) with ESMTPS id E7F4E12B243
+	for <roberto@keltia.net>; Wed, 18 Jan 2023 19:43:49 +0100 (CET)
+dkim-signature: v=1; a=rsa-sha256; d=ecoledirecte.fr; s=1473774468.ecoledirecte;
+	c=relaxed/relaxed; q=dns/txt; h=From:Subject:Date:Message-ID:To:MIME-Version:Content-Type:Content-Transfer-Encoding:List-Unsubscribe;
+	bh=2g/C5baHqiHR0yCe9BqBxUOHemU3CYfGVrTOOIHiVZ0=;
+	b=MH8CjrILn9NZu4mCj+LF1RgfVbMFI60u5xE8TJx9ktQ1ilJfq7kptK6x4V3OKRjhEMWvmDmknj7NJy28K3CgSo0FOCDYaHO2Di+CW8StF0Aub49EWFDhiLE481MUz636w4EucsehYIXZNCDzuLLK/g9fQn8zYib6Lsz1MajjyR4=
+Received: from MAIL07.ED.local (mail07.ecoledirecte.fr [54.38.101.139])
+	by mail08.ecoledirecte.fr with ESMTP
+	; Wed, 18 Jan 2023 19:43:41 +0100
+Message-ID: <09162641-A82E-4DF3-9D5C-A78E0463906F@mail08.ecoledirecte.fr>
+From: AEN La Source <information@ecoledirecte.fr>
+Subject: EcoleDirecte : Emploi du temps jeudi 19/01
+To: roberto@keltia.net
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="XWDBoundary_HTML_-2088144966"
+Content-Transfer-Encoding: 8bit
+Date: Wed, 18 Jan 2023 19:43:41 +0100
+List-Unsubscribe:http://unsubscribe.ecoledirecte.com/
+
+Ceci est un message au format MIME en plusieurs parties.
+
+--XWDBoundary_HTML_-2088144966
+Content-Type: text/plain;
+	charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+Messagerie EcoleDirecte
+Ceci est un message automatique, merci de ne pas répondre.
+
+
+
+
+Bonjour,
+
+Vous venez de recevoir un message sur EcoleDirecte de M. 6ème à 4ème EDUCATEURS
+Objet : Emploi du temps jeudi 19/01
+
+----
+Pour lire ce message et éventuellement y répondre, merci de vous connecter avec vos identifiants sur Site Familles / Elèves
+
+
+----
+AEN La Source
+Vous avez demandé à être averti dans ce cas, rappelez-vous que vous pouvez choisir de ne plus être averti de l'arrivée de nouveaux messages en modifiant l'option appropriée dans votre boite de réception EcoleDirecte.
+--XWDBoundary_HTML_-2088144966
+Content-Type: text/html;
+	charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+<html><body><BODY>
+<CENTER>
+<FONT FACE='Tahoma'>
+<FONT SIZE = 4>
+<B>Messagerie EcoleDirecte</B><br>
+</FONT>
+<FONT SIZE = 2>
+<I>Ceci est un message automatique, merci de ne pas répondre.<br></I>
+</FONT>
+</CENTER><BR><BR><BR><BR>
+<FONT SIZE = 2>
+Bonjour,<BR><BR>
+Vous venez de recevoir un message sur EcoleDirecte de M. 6ème à 4ème  EDUCATEURS <br> 
+Objet : <B>Emploi du temps jeudi 19/01</B><BR><BR>
+----<br>
+Pour lire ce message et éventuellement y répondre, merci de vous connecter avec vos identifiants sur <a href='https://www.ecoledirecte.com'>Site Familles / Elèves</a><BR><BR><BR>
+----<br>
+AEN La Source
+<br>
+</FONT>
+<FONT SIZE=2>
+<I>Vous avez demandé à être averti dans ce cas, rappelez-vous que vous pouvez choisir de ne plus être averti de l'arrivée de nouveaux messages en modifiant l'option appropriée dans votre boite de réception EcoleDirecte.</I></FONT>
+</FONT>
+</CENTER>
+</BODY></body></html>
+--XWDBoundary_HTML_-2088144966--
+
+
