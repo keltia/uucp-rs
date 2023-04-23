@@ -19,7 +19,9 @@ maintenance = { status = "actively-developed" }
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-clap = { version = "4.1.1", features = ["cargo", "derive", "env", "unicode", "string"] }
+anyhow = "1.0"
+clap = { version = "4", features = ["cargo", "derive", "env", "unicode", "string"] }
+nom = "7"
 
 [dev-dependencies]
 
