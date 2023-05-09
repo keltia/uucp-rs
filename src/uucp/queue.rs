@@ -7,7 +7,7 @@ use std::path::PathBuf;
 
 use crate::uucp::{Entity, State};
 
-#[derive(Debug)]
+#[derive(Debug, Default)]
 pub struct Queue {
     /// The base directory which is `UUCP_BASE/sitename`
     pub path: PathBuf,
@@ -68,12 +68,6 @@ impl Queue {
     }
 
 
-}
-
-impl Default for Queue {
-    fn default() -> Self {
-        Queue::new()
-    }
 }
 
 #[cfg(test)]

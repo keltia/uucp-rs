@@ -25,7 +25,7 @@ pub struct Site {
 
 /// Stats about a given site
 ///
-#[derive(Debug)]
+#[derive(Default, Debug)]
 pub struct Stats {
     /// Total number of files
     pub nfiles: usize,
@@ -67,13 +67,15 @@ impl Site {
     }
 }
 
-#[derive(Debug)]
+#[derive(Default, Debug)]
 pub enum State {
     Clean { nfiles: usize },
     Damaged { dmissing: usize, cmissing: usize },
+    #[default]
+    Empty,
 }
 
-#[derive(Debug)]
+#[derive(Default, Debug)]
 pub enum Entity {
     /// Damaged batch, `C.` without corresponding `D.` file
     Missing { qid: String, file: Batch, reason: String },
@@ -81,9 +83,12 @@ pub enum Entity {
     Mail { qid: String, file: Batch, marked: bool },
     /// News-related batch, not going to do much with these
     News { qid: String, file: Batch, marked: bool },
+    /// Invalid entry
+    #[default]
+    Invalid,
 }
 
-#[derive(Debug)]
+#[derive(Default, Debug)]
 pub struct Batch {
     /// Control file in the `C.` directory
     pub c: Option<PathBuf>,

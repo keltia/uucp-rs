@@ -16,7 +16,7 @@ macro_rules! makepath {
 use clap::{crate_authors, crate_description, crate_version};
 
 /// Binary name, using a different binary name
-pub(crate) const NAME: &str = env!("CARGO_BIN_NAME");
+pub(crate) const NAME: &str = env!("CARGO_PKG_NAME");
 /// Binary version
 pub(crate) const VERSION: &str = crate_version!();
 /// Authors
